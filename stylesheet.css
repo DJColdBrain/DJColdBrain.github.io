@@ -1,0 +1,320 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+.site-header{
+background: url("images/Layer-759_02.jpg");
+background-size: cover;
+min-height: 450px;
+}
+.site-header-main {
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),
+   url(images/header-bg.png) center center;
+   min-height: 500px;
+   background-size: cover;
+}
+nav.top-navigation{
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+nav.top-navigation ul{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background: rgba(199,157,99,.9);
+
+}
+section.event{
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+
+}
+section.event .invite{
+  padding: 45px;
+  margin: 45px;
+  display: inline-block;
+  border: 1px solid white;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+section.event h1{
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section.event p{
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section.event a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 70%;
+  background: #ff3300;
+  width: 90px;
+}
+section.event a:hover{
+  text-decoration: none;
+  color: #ff3300;
+  border: 20px;
+  border-radius: 70%;
+  background: white;
+  border: 1px solid #ff3300;
+  border-radius: 90%;
+}
+
+
+
+section.slider h1{
+  
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 100px;
+  background-color: rgba(150, 150, 150, 0.4);
+  box-shadow: 0px 0px 15px 15px rgba(150, 150, 150, 0.4);
+  text-shadow: 0px 0px 10px black;
+}
+section.slider p{
+  color: white;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  padding-left: 90px;
+  background-color: rgba(150, 150, 150, 0.4);
+  box-shadow: 0px 0px 15px 15px rgba(150, 150, 150, 0.4);
+  text-shadow: 0px 0px 10px black;
+}
+section.slider .slider-button-main{
+  font-size: 2em;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 40px;
+  text-decoration: none;
+  color: white;
+}
+section.slider .slider-button-main a:hover{
+  color: black;
+}
+section.story-tell {
+ text-align: right;
+}
+section.story-tell article {
+  display: inline-block;
+  min-width: 200px;
+  max-height: 350px;
+  max-width: 350px;
+  text-align: right;
+  margin-top: 50px;
+  vertical-align: top;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+section.story-tell article p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+section.slider .slider-button{
+display: block;
+width: 97px;
+color: white;
+background: #161616;
+padding: 10px;
+margin: 0 auto;
+margin-top: 30px;
+border-radius: 5px;
+border: 1px solid #4f4f4f;
+}
+.slider video{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+nav.top-navigation ul li{
+display: inline-block;
+padding: 10px;
+
+}
+nav.top-navigation ul li a{
+  color: white;
+  text-decoration: none;
+}
+nav.top-navigation ul li a:hover{
+  color: #0f00f6;
+}
+nav.top-navigation ul li a.selected{
+  color: #0f00f6;
+}
+.industries .icon{
+  width: 45px;
+  height: 45px;
+  font-size: 2em;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  float: left;
+}
+.industries article h2{
+text-align: left;
+  margin-left: 64px;
+  font-size: 1.2em
+}
+section.industries {
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.industries article p{
+text-align: left;
+  margin-left: 64px;
+}
+.industries article{
+  width: 350px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.mission {
+  text-align: center;
+  text-shadow: 0px 0px 3px black;
+  background-size: cover;
+
+  background:linear-gradient(rgba(255,255,255,0.7),rgba(255, 255, 255, 0.7)),
+   url(images/steel-bg.jpg) center center;
+}
+
+.mission h1{
+  color: #BB9F77;
+}
+.mission h2{
+margin-bottom: 0;
+}
+.benefits {
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),
+ url(images/background-choose-us.jpg) no-repeat center;
+background-size: cover;
+text-align: center;
+color: white;
+  text-shadow: 0px 0px 3px black;
+
+}
+.benefits h1{
+  margin-top: 0;
+
+}
+.benefits article{
+  width: 300px;
+  border: 2px solid orange;
+  margin: 10px;
+  display: inline-block;
+
+}
+.benefits article a{
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.benefits article a:hover{
+  background: rgba(255, 255, 255, 0.8);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+section.testimonials {
+  background: url(images/consulting-woman.jpg);
+  height: 600px;
+  text-align: right;
+  background-size: cover;
+}
+.testimonials p {
+  margin-top: 0;
+}
+.testimonials article {
+  background: rgba(255, 255, 255,0.5);
+  width: 500px;
+  display: inline-block;
+  margin: 25px;
+}
+.testimonials article .autor {
+  background: black;
+  color: white;
+  min-height: 200px;
+
+}
+.partners {
+  text-align: center;
+}
+.partners li {
+  display: inline-block;
+  vertical-align:middle;
+}
+.site-footer .consulting p{
+  margin-left: 30px;
+  text-align: left;
+}
+.site-footer section{
+  width: 300px;
+  margin: 10px;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+}
+.site-footer .social-links a{
+  text-decoration: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  margin: 10px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+}
+.site-footer{
+  background: black;
+  text-align: center;
+}
+.site-footer .extra-links a:hover{
+  color: #ff8200;
+}
+.site-footer .extra-links a{
+  text-decoration: none;
+  color: white;
+  vertical-align: top;
+  display: block;
+}
+.extra-links div{
+  text-decoration: none;
+  color: white;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+.site-footer .instagram-widget li{
+  display: inline-block;
+}
+.site-footer .instagram-widget img{
+  width: 70px;
+  height: 70px;
+}
+}
+
+
+
